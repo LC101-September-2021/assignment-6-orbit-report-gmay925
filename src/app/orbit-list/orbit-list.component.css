@@ -21,6 +21,14 @@ table {
 	color: #fff
 }
 
+.data-row tr:nth-child(even){
+	background-color: pink;
+}
+
+.data-row tr:nth-child(odd){
+	background-color: green;
+}
+
 th, td {
 	text-align: left;
 	margin: 5px 10px;
